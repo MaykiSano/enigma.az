@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enigma - Qorxu Evi</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <style>
+        /* Mətn rəngini dəyişmək üçün stillər */
+        .difficulty h3, .rules h3 {
+            color: #ff0; /* Sarı mətn rəngi */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="profile">
+            <img src="avatar.jpg" alt="Profil Şəkli" class="avatar">
+            <h1>Enigma</h1>
+        </div>
+        <p>Xətai dünyadakı ən qorxunc qorxu evinə xoş gəlmisiniz</p>
+    </header>
+    
+    <section class="hero">
+        <img src="horror-house.jpg" alt="Enigma Qorxu Evi">
+    </section>
+    
+    <section class="about">
+        <h2>Biz Haqqında</h2>
+        <p>Enigma - bu, sizin ən qorxunc təcrübələrinizin həyata keçdiyi yerdir. Bizim qorxu evimizdə, hər bir otaqda müxtəlif qəhrəmanlar və həyatlar gizlidir. Bizim missiyamız bu qorxuları həqiqətə çevirməkdir və onları sizin üçün real həyat təcrübəsinə çevirməkdir. Hazır olun, hər dəqiqədə gerilim və qorx ilə doludur. Sizi daha tez vuracaq qeyri-adi səyahətlər və bilinməyənə sürükleyici suallar gözləyir, həmçinin, evimizin ən tənbəl köşələrində qorxunc səyahətlər gözləyir.</p>
+        <p>Bizim tematik gecələrimiz və tədbirlərimiz sizi qeyri-mühayyən etməyəcək, həm doğum gününüzü həm də sizin üçün vacib olan digər günleri qeyd etmənizə kömək edəcək. Bu anların uzun illər ərzində sizin yaddaşınızda qalacağını təmin edirik.</p>
+        <p>Enigma - bu sadəcə bir qorxu evi deyil, bu həqiqi bir macəradır, sizin sinir və cəsarətinizə meydan oxuyur. Bizim unikal qorxu evimizdə qorxu və təəssüf hisslərini tətbiq edin. Bizə qoşulun və bizimlə birgə qorxunun və qorxunun gücünü hiss edin.</p>
+    </section>
+    
+    <section class="services">
+        <h2>Bizim Xidmətlərimiz</h2>
+        <ul>
+            <li>Oyunlar, 50% qorxu və 50% məntiq ilə birlikdə</li>
+            <li>Oyunlar, 90% qorxu və 10% məntiq ilə</li>
+            <li>Kvəstlər və tapmacalar</li>
+            <li>Öz videonuzu qeyd etmək imkanı</li>
+            <li>Adrenalin və unutulmaz hisslərin qazanılması</li>
+        </ul>
+    </section>
+
+    <section class="games">
+        <h2>Bizim Oyunlar</h2>
+        <div class="game" onclick="showGameInfo('game1')">
+            <img src="avatar1.jpg" alt="Nəfəs tut">
+            <p>Nəfəsini tut</p>
+        </div>
+        <div class="game" onclick="showGameInfo('game2')">
+            <img src="avatar2.jpg" alt="İntihar">
+            <p>İntihar</p>
+        </div>
+    </section>
+<section class="game-info" id="game-info">
+        <div id="game1" class="game-details">
+            <h2>Nəfəsini tut</h2>
+            <p>Norman Nordstr - keçmiş hərbi, indi görməzlikdə olan vetaran. Evdə $300000 var. Xəbərdarlıq sistemləri işləyəndən sonra sizdə bir saat vaxtınız var və ən yaxın polis bölməsinə xəbərdarlıq verilir. Körməyi soyumaq asan deyil, əsas məsələ ŞƏRH ETMƏMƏK və çox sürətli hərəkət etməkdir, əks halda çox ağrı çəkəcəksiniz...</p>
+        </div>
+        <div id="game2" class="game-details">
+            <h2>İntihar</h2>
+            <p>Elmi, ölümsüzlük dərmanı yaratma fikrində aşiq idi. Lakin onun araşdırmaları katastrofik nəticələrlə nəticələndi və ölümü məğlubiyyət kimi başa düşdü. Umidsizliklə üz-üzə qaldıqdan sonra, özünü asmaqla öz həyatının sonuna qoymağa qərar verdi. Lakin onun ruhu bu yerlə bağlı qaldı. İndi, ziyarətçilər onun evinə düşdükdə, onların ruhları evin müxtəlif hissələrində həbs olunur. Qurtarmaq üçün yeganə yol, digərlərini tapmaq və azad etməkdir, əks halda elmin ruhu onları öldürəcəkdir.</p>
+        </div>
+    </section>
+    
+    <section class="difficulty">
+        <h2>Oyun çətinlikləri</h2>
+        <ul>
+            <li><strong>Standart:</strong> Standart çətinlikdə heç kəs sizi toxunmur və sizin qorxma ehtimalınız azdır. Bütün maneələr asanlıqla ödəniləcək.</li>
+            <li><strong>Hard:</strong> Çətin rejimdə zəif toxunmalar, qorxunc səslər gözləyir, bu da qorxu və gərginlik atmosferinə əlavə edir.</li>
+            <li><strong>UltraHard:</strong> Bu rejimdə sizi güclü toxunmalar, inanılmaz qorxu səviyyəsi və güclü vuruşlar gözləyir. Bu ən çətin və atmosfer rejimi, yalnız ən qərəzli olanlar sona çata bilər.</li>
+        </ul>
+    </section>
+<section class="rules">
+    <h2>Oyun qaydaları</h2>
+    <ol>
+        <li>Aktyorların şəxsiyyətini ziyan verə biləcək ləğv edən sözlərdən istifadə etmək qadağandır. *Bir-birinizi təhqir etmək olar*.</li>
+        <li>Aktyorlara müqavimət göstərmək, onları vurmaq, itkiləmək və ya zərər vurmaq qadağandır.</li>
+        <li>Üzərində "TOXUNMA" yazılı olan obyektlərə toxunmaq qadağandır.</li>
+        <li>Rekvizitləri pozmaq qadağandır.</li>
+        <li>Qapını açdıqdan sonra, onu sadəcə eyni yerə qoymaq kifayətdir.</li>
+        <li>Rekvizitləri pozmağın təkrar qadağan olunduğunu qeyd etdik. Qaydalara zidd hərəkətdə cərimə verilə bilər.</li>
+    </ol>
+</section>
+
+<section class="contact">
+    <h2>Əlaqə</h2>
+    <p>Ünvan: Üzeyir Hacıbəyli 4B (Vapiano restoranının yanı)</p>
+    <p>Telefon: <a href="tel:+994506006222">+994 50 600 62 22</a></p>
+    <p>E-poçt: <a href="mailto:ltdarklt@gmail.com">ltdarklt@gmail.com</a></p>
+    <p>Instagram: <a href="https://www.instagram.com/enigma.qorxuevi/">enigma.qorxuevi</a></p>
+</section>
+
+<footer>
+    <p>&copy; 2024 Enigma. Bütün bənzərsiz macəradır. Bizi qoşulun və bizimlə birgə qorxunun və cəsarətin gücünü hiss edin.</p>
+
+</section>

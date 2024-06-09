@@ -1,0 +1,135 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #fff;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #111;
+}
+
+header .profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header .avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #444;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+header p {
+    font-size: 1.2em;
+    margin: 10px 0 0 0;
+}
+
+.hero {
+    text-align: center;
+    padding: 20px;
+}
+
+.hero img {
+    max-width: 100%;
+    height: auto;
+    border: 5px solid #444;
+}
+
+section {
+    padding: 20px;
+}
+
+section h2 {
+    font-size: 2em;
+    border-bottom: 2px solid #444;
+    padding-bottom: 10px;
+}
+
+.services ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.services li {
+    background-color: #222;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #444;
+}
+
+.games {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.game {
+    text-align: center;
+    cursor: pointer;
+}
+
+.game img {
+    width: 200px;
+    height: auto;
+    border: 5px solid #444;
+    transition: border-color 0.3s;
+}
+
+.game p {
+    margin-top: 10px;
+    font-size: 1.2em;
+    transition: color 0.3s;
+}
+
+.game:hover img {
+    border-color: #00f;
+}
+
+.game:hover p {
+    color: #00f;
+}
+
+.game-info {
+    display: none;
+    padding: 20px;
+}
+
+.game-details {
+    display: none;
+}
+
+.contact p {
+    margin: 5px 0;
+}
+
+.contact a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.contact a:hover {
+    color: #00f;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #111;
+}
+
+footer p {
+    margin: 0;
+}
